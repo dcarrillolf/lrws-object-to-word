@@ -1,0 +1,16 @@
+Bundle-Name: DCB Object to Word
+Bundle-SymbolicName: com.dcb.object.to.word
+Bundle-Version: 1.0.0
+Export-Package: com.dcb.object.to.word.api
+
+# Apache POI is embedded: packages it references that are not available (SVG, PDF, signatures...) are optional
+Import-Package:\
+	com.liferay.*,\
+	org.osgi.*,\
+	*;resolution:=optional
+
+# Embedded multi-release jars have classes under META-INF/versions/9 that OSGi does not use
+-fixupmessages: "Classes found in the wrong directory";is:=ignore
+
+# log4j-api would add a Bundle-Activator that makes the first POI call hang forever
+-bundleannotations: com.dcb.*

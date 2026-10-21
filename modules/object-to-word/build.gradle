@@ -1,0 +1,5 @@
+dependencies {
+	// Apache POI (plus its transitive dependencies) is embedded in the bundle.
+	compileInclude group: "org.apache.poi", name: "poi-ooxml", version: "5.4.1"
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
