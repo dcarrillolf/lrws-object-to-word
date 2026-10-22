@@ -1,4 +1,4 @@
-package com.dcb.object.to.word.api;
+package com.dcb.objecttoword.exporter.api;
 
 import java.io.File;
 

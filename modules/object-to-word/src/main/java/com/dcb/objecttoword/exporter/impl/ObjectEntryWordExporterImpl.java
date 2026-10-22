@@ -1,7 +1,6 @@
-package com.dcb.object.to.word.internal;
+package com.dcb.objecttoword.exporter.impl;
 
-import com.dcb.object.to.word.api.ObjectEntryWordExporter;
-import com.dcb.object.to.word.internal.docx.DocxTemplateFiller;
+import com.dcb.objecttoword.exporter.api.ObjectEntryWordExporter;
 
 import com.liferay.list.type.model.ListTypeEntry;
 import com.liferay.list.type.service.ListTypeEntryLocalService;

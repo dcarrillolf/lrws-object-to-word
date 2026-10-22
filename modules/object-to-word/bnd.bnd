@@ -1,7 +1,7 @@
 Bundle-Name: DCB Object to Word
 Bundle-SymbolicName: com.dcb.object.to.word
 Bundle-Version: 1.0.0
-Export-Package: com.dcb.object.to.word.api
+Export-Package: com.dcb.objecttoword.exporter.api
 
 # Apache POI is embedded: packages it references that are not available (SVG, PDF, signatures...) are optional
 Import-Package:\

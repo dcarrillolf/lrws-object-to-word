@@ -1,4 +1,4 @@
-package com.dcb.object.to.word.internal.docx;
+package com.dcb.objecttoword.exporter.impl;
 
 import java.io.IOException;
 import java.io.InputStream;
